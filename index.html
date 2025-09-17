@@ -16,7 +16,7 @@ tailwind.init.css">
 <header>
     <!-- nav section  -->
 
-<div class="flex flex-col md:flex-row justify-between items-center mx-[60px]">
+<div class="flex flex-col md:flex-row justify-between items-center md:mx-[60px]">
     <div class="left h-[100px] flex items-center  ">
         <div class="p-1 h-[100%] flex items-center " >
                   <img class="h-[50%]" src="./assets/logo.png" alt="Bangladesh logo">
@@ -32,9 +32,9 @@ tailwind.init.css">
     </div>
 
     <div class="right flex gap-[20px]">
-        <div class="p-[12px] sm:w-[123px] sm:h-[52px]  rounded-[50px] flex items-center justify-center gap-[10px] bg-[#41FF6B1A]">
+        <div class="p-[12px] md:w-[123px] md:h-[52px]  rounded-[50px] flex items-center justify-center gap-[10px] bg-[#41FF6B1A]">
             <p class="font-extrabold inter" >0</p>
-            <div class="md:w-[30px] h-[30px]">
+            <div class=" md:w-[30px] h-[30px]">
          <img src="./assets/heart.png" alt="" class="h-[100%]">
             </div>
         </div>
@@ -60,16 +60,18 @@ tailwind.init.css">
         <div class="h-[92px] flex items-center justify-center">
                 <img class="h-[100%]" src="./assets/logo-dark.png" alt="Bangladesh-logo">
         </div>
-    <h1 class="text-center font-semibold sm:text-[40px] text-[#ffffff] mt-2 madurai">
+    <h1 class="text-center font-semibold sm:text-[40px] text-[#ffffff] mt-4 madurai">
         জরুরি সেবা ডিরেক্টরি
     </h1>
-    <p class="text-center sm:text-[20px] font-semibold text-[#ffffff] mt-1 madurai">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+    <p class="text-center sm:text-[15px] md:text-[20px] font-semibold text-[#ffffff] mt-1 madurai px-2">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
     </div>
 
 </div>
 </div>
 </header>
 
+<!-- Hero section  -->
+ 
     <main>
       <section class="bg-[#f5fff6]  border-2 border-green-600 flex flex-col sm:flex-row gap-[10px] p-5">
         <div class="left md:w-full p-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3
@@ -324,8 +326,62 @@ tailwind.init.css">
 
 
         </div>
-        <div class="right border-2 border-red-500 md:w-1/3">
+        <!-- Call history section  -->
+        <div class="right md:w-1/3 bg-[#ffffff] shadow-[rgba(0, 0, 0, 0.15)_0px 2px 3px 0px] shadow-md rounded-[12px] p-4">
+            <div class="flex justify-between items-center">
+            <div>
+                <h3 class="font-medium text-[#111111] text-[20px roboto]"><span><i class="fa-regular fa-clock text-gray-500"></i></span> Call History</h3>
+            </div>
+            <button class="bg-[#00a63e] text-[#ffffff] intern w-[114px] h-[52px] rounded-[50px] hover:bg-[#008f36] hover:scale-[1.02] transition-all duration-300">Clear</button>
+            </div>
 
+            <!-- History lists  -->
+
+            <div class="list-p gap-">
+            <div class="lists bg-[#fafafa] md:w-[352px] md:h-[86px] mt-5 mx-auto p-5 rounded-[8px]">
+                <div class="list-child flex justify-between">
+                <div>
+                    <p class="text-[#111111] text-[18px] madurai">জাতীয় জরুরি সেবা</p>
+                    <p class="text-[#5c5c5c] text-[18px] madurai">999</p>
+                </div>
+                <div>
+                    <p>11:36:58 AM</p>
+                </div>
+
+                </div>
+
+            </div>
+            <div class="lists bg-[#fafafa] md:w-[352px] md:h-[86px] mt-5 mx-auto p-5 rounded-[8px]">
+                <div class="list-child flex justify-between">
+                <div>
+                    <p class="text-[#111111] text-[18px] madurai">জাতীয় জরুরি সেবা</p>
+                    <p class="text-[#5c5c5c] text-[18px] madurai">999</p>
+                </div>
+                <div>
+                    <p>11:36:58 AM</p>
+                </div>
+
+                </div>
+
+            </div>
+            <div class="lists bg-[#fafafa] md:w-[352px] md:h-[86px] mt-5 mx-auto p-5 rounded-[8px]">
+                <div class="list-child flex justify-between">
+                <div>
+                    <p class="text-[#111111] text-[18px] madurai">জাতীয় জরুরি সেবা</p>
+                    <p class="text-[#5c5c5c] text-[18px] madurai">999</p>
+                </div>
+                <div>
+                    <p>11:36:58 AM</p>
+                </div>
+
+                </div>
+
+            </div>
+            </div>
+
+
+
+            </div>
         </div>
 
 
