@@ -24,7 +24,7 @@ function addHistory(){
 
     for (const updateDiv of history){
         const newDiv = document.createElement("div")
-        newDiv.classList = "lists bg-[#fafafa] w-[352px] h-[86px] mt-5 mx-auto rounded-[8px]"
+        newDiv.classList = "lists bg-[#fafafa] md:w-[352px] h-[86px] mt-5 mx-auto rounded-[8px]"
         newDiv.innerHTML = `<div class="lists bg-[#fafafa] md:w-[352px] md:h-[86px] mt-5 mx-auto p-5 rounded-[8px]">
                 <div class="list-child flex justify-between">
                 <div>
